@@ -1,0 +1,47 @@
+.title-cards{
+  margin-top: 3rem;
+  margin-bottom:2rem ;
+  
+}
+.title-cards h2{
+  margin-bottom: 0.5rem;
+}
+.card-list{
+  display: flex;
+  gap: 0.9rem;
+  overflow-x: scroll; 
+  overflow-y: hidden;
+}
+.card-list::-webkit-scrollbar{
+  display: none;
+}
+.card {
+  width: 15rem;
+  height: 13rem;
+  background-color:black;
+  border-radius: 0.1rem;
+  margin-right: 0.3rem;
+  flex-shrink: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 10rem;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+  cursor: pointer;
+  mask-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8));
+}
+
+.card-list .card p{
+  position: absolute;
+  right: 5%;
+  top: 78%;
+  text-decoration: none;
+  color: white;
+}

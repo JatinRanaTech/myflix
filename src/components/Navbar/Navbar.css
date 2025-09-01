@@ -1,0 +1,101 @@
+.navbar{
+  width: 100%;
+  padding: 1.3rem 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: fixed;
+  font-size: 0.9rem;
+  color: white;
+  background-image: linear-gradient(180deg,rgba(0,0,0,0.7)10%,transparent);
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+.nav-dark {
+  background-color:rgba(0,0,0,0.9) !important;
+  background-image: none !important;
+  transition: background-color 0.3s ease;
+}
+
+
+.navbar-left{
+  display: flex;
+  gap:3.2rem ;
+  align-items: center;
+}
+.navbar-left ul{
+  display: flex;
+  gap:1.25rem;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar-left ul li{
+  cursor: pointer;
+  
+}
+.navbar-left ul li a{
+  color: white;
+  text-decoration: none;
+}
+.logo{
+  
+  width: 5.6rem;
+}
+
+.navbar-right{
+ display: flex;
+ align-items: center;
+ gap: 1.25rem;
+}
+.navbar-right .icons{
+ gap: 1.25rem;
+ cursor: pointer;
+
+}
+
+.profile{
+  border-radius:0.3rem ;
+  width:1.7rem ;
+}
+
+.caret{
+  transform: rotate(180deg);
+}
+
+
+.navbar-profile{
+  display: flex;
+  align-items: center;
+  gap: 0.62rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar-profile .dropdown{
+  display: none;
+  width: max-content;
+  position: absolute;
+  top:100%;
+  right: 0;
+  background-color: #191919;
+  border-radius: 0.125rem;
+  z-index: 1;
+  text-decoration: underline;
+  padding: 0.8rem 1.2rem;
+}
+
+.navbar-profile .dropdown p{
+  font-size: 0.81rem;
+  cursor: pointer;
+  color: white;
+  text-decoration:underline;
+}
+
+ .navbar-profile:hover .dropdown{
+  display:block;
+}
+.navbar-profile:hover .caret{
+  transform: rotate(0deg);
+}
+

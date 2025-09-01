@@ -1,0 +1,88 @@
+.login{
+    height: 100vh;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.4)95%,transparent) , url("/background_banner.jpg");
+    padding: 1.2rem 8%;
+    
+}
+
+.login-logo{
+    width: 9.375rem;
+}
+
+.login-form{
+   width:100%;
+   max-width:23rem ;
+   background:rgba(0,0,0,0.7) ;
+   border-radius: 0.6rem;
+   padding: 2.5rem 3.5rem;
+   margin: auto;
+}
+.login-form h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+}
+.login-form input{
+    width: 100%;
+    height: 2.6rem;
+    background: #333;
+    color: white;
+    margin: 0.5rem 0;
+    border: 0;
+    outline: 0;
+    border-radius:0.4rem ;
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.login-form input[type='submit']{
+    background: red;
+    padding: 0;
+
+}
+.form-help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remember{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+}
+.remember input[type='checkbox']{
+    height: 0.8rem;
+    padding: 0;
+}
+.remember label{
+    font-size:0.7rem;
+    width: 100%;
+}
+.form-help p{
+    font-size: 0.7rem;
+}
+.account{
+    display: flex;
+    font-size: 0.7rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    gap: 0.37rem;
+    color: gray;
+
+}
+.account a{
+    color: white;
+}
+
+.login-spinner{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-spinner img{
+    width: 4rem;
+}
