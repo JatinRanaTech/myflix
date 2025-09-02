@@ -40,7 +40,8 @@ Netflix-Clone/
 ---
 
 ## 📸 Screenshots
-*(Add your project screenshots here)*  
+![Home Page](https://github.com/user-attachments/assets/e876c573-ab3f-4464-b9e0-2d3bef5106fe)
+
 
 ---
 
