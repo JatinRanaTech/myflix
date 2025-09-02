@@ -58,8 +58,4 @@ Contributions are welcome!
 - Make your changes  
 - Submit a pull request  
 
----
 
-## 📜 License
-This project is licensed under the MIT License.  
-](https://myflix-coral.vercel.app/)
