@@ -23,15 +23,16 @@ A Netflix-inspired web application built with **React** that allows users to bro
 
 ## 📂 Project Structure
 ```
-Netflix-Clone/
+MYFLIX/
 ├── public/
-│   ├── index.html
-│   ├── favicon.ico
 ├── src/
 │   ├── components/
+│   ├── assets/
 │   ├── pages/
-│   ├── App.js
-│   ├── index.js
+│   ├── firebase.js
+│   ├── index.css
+│   ├── App.jsx
+│   ├── main.jsx
 ├── .env
 ├── package.json
 └── README.md
