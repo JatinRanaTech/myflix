@@ -1,4 +1,4 @@
-[# Netflix Clone
+# Netflix Clone
 
 A Netflix-inspired web application built with **React** that allows users to browse movies, view details, and experience a Netflix-like interface. Integrated with **Firebase Authentication** for secure login and **Movie API** for real-time movie data.
 
